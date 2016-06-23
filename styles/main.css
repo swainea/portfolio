@@ -360,4 +360,7 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
+li {
+  list-style: none; }
+
 /*# sourceMappingURL=main.css.map */
