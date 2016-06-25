@@ -1,3 +1,7 @@
-li{
-  list-style: $theme-list; 
+#header{
+  width: 100%; 
+  text-align: right;
+  ul{
+    display: inline-flex;
+  }
 }
