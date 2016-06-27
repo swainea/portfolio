@@ -369,6 +369,11 @@ main {
 li {
   list-style: none; }
 
+h2 {
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 1.8em; }
+
 #header {
   text-align: right; }
   #header ul {
@@ -379,5 +384,11 @@ li {
   height: 400px;
   object-fit: cover;
   border-radius: 1em; }
+
+.left {
+  display: inline-block; }
+
+.right {
+  display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
