@@ -2,7 +2,6 @@
   width: 600px;
   height: 400px;
   object-fit: cover;
-  border-radius: 1em;
 }
 .left{
   display: inline-block;
@@ -13,5 +12,11 @@
   width: 40%;
 }
 .stack-info{
-  border: 1px solid black; 
+  border: 1px solid $theme-main-color;
+}
+h3{
+  & span{
+    border: 1px solid black;
+    border-right: none;
+  }
 }

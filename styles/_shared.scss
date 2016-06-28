@@ -33,11 +33,15 @@ h4{
   font-family: $theme-font;
   font-weight: $theme-font-reg;
   font-size: 1.5em;
-}
-span{
-  background-color: $theme-main-color;
-  color: white;
+  text-transform: uppercase;
 }
 p{
   font-family: $theme-font;
+}
+.small-line{
+  width: 6em;
+  height: .05em;
+  border: 0;
+  background-color: black;
+  margin-left: 0;
 }
