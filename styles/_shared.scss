@@ -1,5 +1,5 @@
 main{
-  width: 75%;
+  width: 70%;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -7,13 +7,37 @@ main{
 li{
   list-style: $theme-list;
 }
+h1{
+  font-family: $theme-font;
+  font-weight: $theme-font-reg;
+  font-size: 5em;
+  text-transform: uppercase;
+  color: $theme-main-color;
+  margin: 0;
+}
 h2{
   font-family: $theme-font;
-  font-weight: $theme-font-light;
-  font-size: 1.8em;
+  font-weight: $theme-font-bold;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: $theme-main-color;
+  margin: 0;
 }
 h3{
   font-family: $theme-font;
-  font-weight: $theme-font-light;
+  font-weight: $theme-font-reg;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+h4{
+  font-family: $theme-font;
+  font-weight: $theme-font-reg;
   font-size: 1.5em;
+}
+span{
+  background-color: $theme-main-color;
+  color: white;
+}
+p{
+  font-family: $theme-font;
 }

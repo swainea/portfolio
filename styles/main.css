@@ -361,7 +361,7 @@ textarea {
   -webkit-appearance: none; }
 
 main {
-  width: 75%;
+  width: 70%;
   margin: auto;
   margin-top: 10%;
   margin-bottom: 10%; }
@@ -369,20 +369,42 @@ main {
 li {
   list-style: none; }
 
-h2 {
-  font-family: "Lato", sans-serif;
+h1 {
+  font-family: "Inconsolata", monospace;
   font-weight: 400;
-  font-size: 1.8em; }
+  font-size: 5em;
+  text-transform: uppercase;
+  color: #A0A0A0;
+  margin: 0; }
+
+h2 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 3em;
+  text-transform: uppercase;
+  color: #A0A0A0;
+  margin: 0; }
 
 h3 {
-  font-family: "Lato", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 1.8em;
+  text-transform: uppercase; }
+
+h4 {
+  font-family: "Inconsolata", monospace;
   font-weight: 400;
   font-size: 1.5em; }
 
-#header {
-  text-align: right; }
-  #header ul {
-    display: inline-flex; }
+span {
+  background-color: #A0A0A0;
+  color: white; }
+
+p {
+  font-family: "Inconsolata", monospace; }
+
+ul {
+  display: inline-flex; }
 
 .prj-image {
   width: 600px;
