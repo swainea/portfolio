@@ -370,9 +370,14 @@ li {
   list-style: none; }
 
 h2 {
-  font-family: "Raleway";
-  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
   font-size: 1.8em; }
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em; }
 
 #header {
   text-align: right; }
@@ -389,6 +394,11 @@ h2 {
   display: inline-block; }
 
 .right {
-  display: inline-block; }
+  display: inline-block;
+  vertical-align: top;
+  width: 40%; }
+
+.stack-info {
+  border: 1px solid black; }
 
 /*# sourceMappingURL=main.css.map */

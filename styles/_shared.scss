@@ -9,6 +9,11 @@ li{
 }
 h2{
   font-family: $theme-font;
-  font-weight: $theme-font-bold;
-  font-size: 1.8em; 
+  font-weight: $theme-font-light;
+  font-size: 1.8em;
+}
+h3{
+  font-family: $theme-font;
+  font-weight: $theme-font-light;
+  font-size: 1.5em;
 }
