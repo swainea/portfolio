@@ -451,6 +451,21 @@ ul {
   width: 600px;
   height: 400px;
   object-fit: cover; }
+#development a {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #404040; }
+#development ul {
+  margin: 0;
+  padding: 0; }
+  #development ul li {
+    padding-left: .5em; }
+  #development ul li:first-child {
+    padding-right: .5em;
+    border-right: 0.12em solid #404040;
+    padding-left: 0; }
 
 .left {
   display: inline-block; }
@@ -466,7 +481,8 @@ ul {
     background-color: #404040; }
 
 .stack-info {
-  background-color: #E8E8E8; }
+  background-color: #E8E8E8;
+  margin-bottom: 1em; }
   .stack-info p {
     margin: 0;
     padding-left: 1em;

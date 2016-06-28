@@ -8,6 +8,25 @@
     height: 400px;
     object-fit: cover;
   }
+  a{
+    font-family: $theme-font;
+    font-weight: $theme-font-bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $theme-main-color;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    & li{
+      padding-left: .5em;
+    }
+    & li:first-child{
+      padding-right: .5em;
+      border-right: .12em solid $theme-main-color;
+      padding-left: 0;
+    }
+  }
 }
 .left{
   display: inline-block;
@@ -25,6 +44,7 @@
 }
 .stack-info{
   background-color: $theme-color-lightest;
+  margin-bottom: 1em;
   & p{
     margin: 0;
     padding-left: 1em;
