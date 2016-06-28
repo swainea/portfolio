@@ -1,5 +1,12 @@
+#header{
+  p{
+    font-family: $theme-font;
+    color: $theme-color-light;
+    font-size: 1.2em;
+  }
+}
 h1{
-  & span{
+  span{
       background-color: $theme-main-color;
       color: white;
   }

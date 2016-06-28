@@ -372,49 +372,82 @@ li {
 h1 {
   font-family: "Inconsolata", monospace;
   font-weight: 400;
-  font-size: 5em;
+  font-size: 7em;
   text-transform: uppercase;
-  color: #A0A0A0;
+  color: #404040;
   margin: 0; }
 
 h2 {
   font-family: "Inconsolata", monospace;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3.5em;
   text-transform: uppercase;
-  color: #A0A0A0;
+  color: #404040;
   margin: 0; }
 
 h3 {
   font-family: "Inconsolata", monospace;
   font-weight: 400;
   font-size: 1.8em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #404040; }
 
 h4 {
   font-family: "Inconsolata", monospace;
-  font-weight: 400;
-  font-size: 1.5em;
-  text-transform: uppercase; }
+  font-weight: 700;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #A0A0A0;
+  margin: 0; }
 
-p {
-  font-family: "Inconsolata", monospace; }
+h5 {
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #404040;
+  margin: 0;
+  padding-top: .8em;
+  padding-left: .8em; }
 
 .small-line {
   width: 6em;
-  height: .05em;
+  height: .15em;
   border: 0;
-  background-color: black;
-  margin-left: 0; }
+  background-color: #404040;
+  margin-left: 0;
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.long-line {
+  margin-top: 4em;
+  margin-bottom: 4em;
+  background-color: #E8E8E8;
+  height: .05em;
+  border: 0; }
+
+img {
+  -webkit-filter: grayscale(100%);
+  /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+  opacity: 0.8; }
+
+#header p {
+  font-family: "Inconsolata", monospace;
+  color: #A0A0A0;
+  font-size: 1.2em; }
 
 h1 span {
-  background-color: #A0A0A0;
+  background-color: #404040;
   color: white; }
 
 ul {
   display: inline-flex; }
 
-.prj-image {
+#development p {
+  font-family: "Inconsolata", monospace;
+  color: #404040; }
+#development img {
   width: 600px;
   height: 400px;
   object-fit: cover; }
@@ -425,13 +458,20 @@ ul {
 .right {
   display: inline-block;
   vertical-align: top;
-  width: 40%; }
+  width: 40%;
+  margin-left: 2%; }
+  .right hr {
+    height: .2em;
+    border: 0;
+    background-color: #404040; }
 
 .stack-info {
-  border: 1px solid #A0A0A0; }
-
-h3 span {
-  border: 1px solid black;
-  border-right: none; }
+  background-color: #E8E8E8; }
+  .stack-info p {
+    margin: 0;
+    padding-left: 1em;
+    padding-bottom: .8em;
+    padding-top: .5em;
+    font-size: .8em; }
 
 /*# sourceMappingURL=main.css.map */

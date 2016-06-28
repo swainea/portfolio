@@ -1,7 +1,13 @@
-.prj-image{
-  width: 600px;
-  height: 400px;
-  object-fit: cover;
+#development{
+  p{
+    font-family: $theme-font;
+    color: $theme-main-color;
+  }
+  img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  }
 }
 .left{
   display: inline-block;
@@ -10,13 +16,20 @@
   display: inline-block;
   vertical-align: top;
   width: 40%;
+  margin-left: 2%;
+  hr{
+    height: .2em;
+    border: 0;
+    background-color: $theme-main-color;
+  }
 }
 .stack-info{
-  border: 1px solid $theme-main-color;
-}
-h3{
-  & span{
-    border: 1px solid black;
-    border-right: none;
+  background-color: $theme-color-lightest;
+  & p{
+    margin: 0;
+    padding-left: 1em;
+    padding-bottom: .8em;
+    padding-top: .5em;
+    font-size: .8em;
   }
 }
