@@ -5,6 +5,18 @@
     & li:first-child{
       margin-left: 0;
     }
+  img{
+    object-fit: cover;
+    object-position: 0 0;
+    height: 350px;
+    width: 275px;
+    &:hover{
+      -webkit-filter: none; /* Chrome, Safari, Opera */
+      filter: none;
+      opacity: 1;
+      transition: ease 1s; 
+    }
+  }
   }
 }
 .image-box{

@@ -495,6 +495,17 @@ ul {
   padding: 0; }
   #design ul li:first-child {
     margin-left: 0; }
+  #design ul img {
+    object-fit: cover;
+    object-position: 0 0;
+    height: 350px;
+    width: 275px; }
+    #design ul img:hover {
+      -webkit-filter: none;
+      /* Chrome, Safari, Opera */
+      filter: none;
+      opacity: 1;
+      transition: ease 1s; }
 
 .image-box {
   height: 350px;
