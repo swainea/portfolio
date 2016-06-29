@@ -490,4 +490,17 @@ ul {
     padding-top: .5em;
     font-size: .8em; }
 
+#design ul {
+  margin: 0;
+  padding: 0; }
+  #design ul li:first-child {
+    margin-left: 0; }
+
+.image-box {
+  height: 350px;
+  width: 275px;
+  border: 1px solid #404040;
+  display: inline-block;
+  margin-left: 2em; }
+
 /*# sourceMappingURL=main.css.map */
