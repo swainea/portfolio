@@ -505,7 +505,8 @@ ul {
       /* Chrome, Safari, Opera */
       filter: none;
       opacity: 1;
-      transition: ease 1s; }
+      transition: ease 1s;
+      cursor: pointer; }
 
 .image-box {
   height: 350px;
